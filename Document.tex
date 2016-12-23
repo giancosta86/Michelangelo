@@ -1,0 +1,72 @@
+%----------------------------------
+% Michelangelo - Template structure
+%
+%
+% By Gianluca Costa, 2016
+%----------------------------------
+
+
+%-------------
+% GLOBAL SETUP
+%-------------
+
+\documentclass[11pt, a4paper]{book}
+
+\usepackage[utf8x]{inputenc}
+
+\usepackage[italian,english]{babel}
+
+\usepackage[pdftex]{graphicx}
+\usepackage{hyperref}
+
+\hypersetup{
+	colorlinks,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=black
+}
+
+
+%-------------------------
+% THE DOCUMENT BEGINS HERE
+%-------------------------
+
+\begin{document}
+
+\title{Michelangelo - Elegant hybrid Markdown-LaTeX document template}
+\author{Gianluca Costa}
+
+\maketitle
+
+\newpage
+\section*{Abstract}
+\input{abstract.tex}
+
+\newpage
+\selectlanguage{italian}
+\section*{Abstract (italiano)}
+\input{abstractIta.tex}
+\selectlanguage{english}
+
+\tableofcontents
+
+
+\part{Overview}
+
+\chapter{Introduction}
+\input{introduction.tex}
+
+
+\part{Reference}
+
+\chapter{Using Michelangelo}
+\input{usage.tex}
+
+\nocite{*}
+
+\bibliographystyle{unsrt}
+\bibliography{biblio}
+
+
+\end{document}
