@@ -57,15 +57,14 @@ RUN groupadd -r texgroup -g 1000
 RUN useradd -r -u 1000 -g texgroup -d /home/texuser -s /sbin/nologin -c "Document-editing user" texuser
 RUN chown -R texuser:texgroup /home/texuser
 RUN chown -R texuser:texgroup /doc
-
-RUN chmod o+w /usr/local/texlive/2016/tlpkg
+RUN chown -R texuser:texgroup /usr/local/texlive
 
 
 #---------------------------
 # POPULATING THE FILE SYSTEM
 #---------------------------
 
-ADD fs/bin /bin
+ADD fs/bin /usr/bin
 ADD fs/sampleBook /sampleBook
 
 
