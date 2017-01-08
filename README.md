@@ -29,7 +29,7 @@ Therefore, Markdown is employed as a quick and expressive shortcut syntax for La
 
     * **docBuild**: creates the PDF file (**Document.pdf**) within **/doc/build**
 
-    * **nano**: with syntax highlighting, enables editing when using a command-line host OS. Otherwise, one can visually edit the document files using any GUI editor
+    * **nano**: with syntax highlighting, enables editing when using a command-line host OS. Otherwise, one can visually edit the document files via any GUI editor
 
     * **tlmgr**: can download and install additional LaTeX packages
 
@@ -49,3 +49,5 @@ In order to correctly employ Michelangelo, please refer to its [wiki](https://gi
 * [Markdown](https://daringfireball.net/projects/markdown/)
 
 * [LaTeX](https://www.latex-project.org/)
+
+* [Docker]()
