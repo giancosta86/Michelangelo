@@ -25,9 +25,9 @@ Therefore, Markdown is employed as a quick and expressive shortcut syntax for La
 
 * Within the container a few commands can be invoked:
 
-    * **docInit**: adds all the files of a sample book to the **doc** directory
+    * **docInit**: adds all the files of a sample book to the **/doc** directory
 
-    * **docBuild**: creates the PDF file
+    * **docBuild**: creates the PDF file (**Document.pdf**) within **/doc/build**
 
     * **nano**: with syntax highlighting, enables editing when using a command-line host OS. Otherwise, one can visually edit the document files using any GUI editor
 
