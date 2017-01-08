@@ -1,0 +1,2 @@
+include "~/nanoStyles/markdown.nanorc"
+include "~/nanoStyles/tex.nanorc"

@@ -47,7 +47,7 @@ They should have at least 2 items as well:
 
 Of course, images are supported, too - with standard Markdown syntax!
 
-![Image description](images/example.png)
+![Embedding images is definitely easy](images/example.png)
 
 
 # LaTeX

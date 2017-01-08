@@ -1,6 +1,6 @@
 # Michelangelo
 
-*Elegant hybrid Markdown-LaTeX document template*
+*Docker image for hybrid Markdown-LaTeX document editing*
 
 
 ## Introduction
@@ -16,12 +16,17 @@ Michelangelo is both simple and effective:
 
 Therefore, Markdown is employed as a quick and expressive shortcut syntax for LaTeX - a sort of effective *syntactic sugar*.
 
-My Thesis was written in English but also included an Italian abstract - which is why Michelangelo provides *bilingual tools* as well.
+Last but not least, starting from version 2.0 Michelangelo is *a Docker image*, providing an extensible set of LaTeX and PDF tools out of the box! ^\_\_^
 
 
 ## Usage
 
 In order to correcly employ Michelangelo, please refer to its [wiki](https://github.com/giancosta86/Michelangelo/wiki).
+
+
+## Third-party licenses
+
+Please, consult [the related file](LICENSES.md).
 
 
 ## Further references
