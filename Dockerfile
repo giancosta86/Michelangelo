@@ -30,13 +30,13 @@ RUN mkdir /doc
 # SETTING UP THE TEX USER
 #------------------------
 
-ADD fs/home/texuser /home/texuser
+ADD fs/home/docuser /home/docuser
 
-RUN groupadd -r texgroup -g 1000
-RUN useradd -r -u 1000 -g texgroup -d /home/texuser -s /sbin/nologin -c "Document-editing user" texuser
+RUN groupadd -r docgroup -g 1000
+RUN useradd -r -u 1000 -g docgroup -d /home/docuser -s /sbin/nologin -c "Document-editing user" docuser
 
-RUN chown -R texuser:texgroup /home/texuser
-RUN chown -R texuser:texgroup /doc
+RUN chown -R docuser:docgroup /home/docuser
+RUN chown -R docuser:docgroup /doc
 
 
 #--------------------
@@ -44,17 +44,17 @@ RUN chown -R texuser:texgroup /doc
 #--------------------
 
 RUN mkdir -p /usr/local/texlive
-RUN chown -R texuser:texgroup /usr/local/texlive
+RUN chown -R docuser:docgroup /usr/local/texlive
 
 ADD fs/setup /setup
-RUN chown -R texuser:texgroup /setup
+RUN chown -R docuser:docgroup /setup
 
 
 #---------------
 # SWITCHING USER
 #---------------
 
-USER texuser
+USER docuser
 
 
 #--------------------
@@ -80,7 +80,7 @@ USER root
 WORKDIR /
 RUN rm -r /setup
 
-USER texuser
+USER docuser
 
 
 #-----------------------------------
