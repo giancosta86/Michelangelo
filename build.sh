@@ -2,7 +2,12 @@
 
 set -e
 
-VERSION=2.0
+VERSION=$(cat VERSION)
+
+echo "-----------------------"
+echo "Michelangelo - Version: '${VERSION}'"
+echo "-----------------------"
+echo
 
 docker build -t giancosta86/michelangelo:v${VERSION} .
 
