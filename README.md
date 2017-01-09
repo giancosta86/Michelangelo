@@ -19,13 +19,27 @@ Therefore, Markdown is employed as a quick and expressive shortcut syntax for La
 
 ## Features
 
-* Starting from version 2.0, Michelangelo is *a Docker image*, providing an extensible set of LaTeX and PDF tools out of the box! ^\_\_^
+* Starting from version 2.0, Michelangelo is *a Docker image*, providing an extensible set of LaTeX and PDF tools out of the box and a ready-made book template! ^\_\_^
+
+* The book template includes:
+
+    * a cover (in PDF format)
+
+    * two abstracts
+
+    * a table of contents with clickable links
+
+    * some text, showing how to employ Markdown
+
+    * image embedding
+
+    * a bibliography
 
 * The **michelangelo** script can be added to the PATH and creates *an ad-hoc container* working on a **doc** directory in the current directory of the host system (which maps to **/doc** in the container)
 
 * Within the container a few commands can be invoked:
 
-    * **docInit**: adds all the files of a sample book to the **/doc** directory
+    * **docInit**: adds all the files of the sample book to the **/doc** directory
 
     * **docBuild**: creates the PDF file (**Document.pdf**) within **/doc/build**
 
@@ -50,4 +64,4 @@ In order to correctly employ Michelangelo, please refer to its [wiki](https://gi
 
 * [LaTeX](https://www.latex-project.org/)
 
-* [Docker]()
+* [Docker](https://www.docker.com/)
