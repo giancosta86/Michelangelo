@@ -5,7 +5,7 @@
 
 ## Introduction
 
-Michelangelo is a hybrid Markdown-LaTeX template for *creating a book* - or any other document - using **Markdown files** that can transparently include LaTeX commands: it is a generalization of the Thesis which I created on [TwoBinPack](http://gianlucacosta.info/TwoBinPack/) - my MSc project in Computer Engineering.
+Michelangelo is a hybrid Markdown-LaTeX system for *creating a book* - or any other document - using **Markdown files** that can transparently include LaTeX commands: it is a generalization of the Thesis which I created on [TwoBinPack](http://gianlucacosta.info/TwoBinPack/) - my MSc project in Computer Engineering.
 
 Michelangelo is both simple and effective:
 
